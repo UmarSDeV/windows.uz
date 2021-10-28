@@ -1,0 +1,816 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.windows {
+  background-color: #ecf0f3;
+  padding: 20px 0px;
+}
+
+.windows .content-windows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.windows .content-windows .left-content {
+  width: 350px;
+  height: 100vh;
+  position: fixed;
+  overflow: auto;
+  padding-bottom: 40px;
+}
+
+.windows .content-windows .left-content .logo {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.windows .content-windows .left-content .logo img {
+  width: 60%;
+}
+
+.windows .content-windows .left-content .logo i {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.664);
+  cursor: pointer;
+}
+
+.windows .content-windows .left-content .title {
+  margin-bottom: 25px;
+  padding-right: 310px;
+}
+
+.windows .content-windows .left-content .title h2 {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.726);
+}
+
+.windows .content-windows .left-content .menu {
+  padding-bottom: 15px;
+}
+
+.windows .content-windows .left-content .menu ul.top {
+  list-style-type: none;
+  border-bottom: rgba(0, 0, 0, 0.308) solid 2px;
+}
+
+.windows .content-windows .left-content .menu ul.top li {
+  margin-bottom: 23px;
+}
+
+.windows .content-windows .left-content .menu ul.top li a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.windows .content-windows .left-content .menu ul.top li a i {
+  margin-right: 10px;
+}
+
+.windows .content-windows .left-content .menu ul.top li a b {
+  font-size: 18px;
+  color: #000;
+}
+
+.windows .content-windows .left-content .menu ul.top li a:hover i svg path {
+  fill: #003cff;
+}
+
+.windows .content-windows .left-content .menu ul.top li a:hover b {
+  color: #003cff;
+}
+
+.windows .content-windows .left-content .left-content-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.windows .content-windows .left-content .left-content-bottom .bottom-text p {
+  font-size: 13px;
+}
+
+.windows .content-windows .left-content .left-content-bottom .socials a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.windows .content-windows .body-content {
+  margin-left: 370px;
+}
+
+.windows .content-windows .body-content header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.windows .content-windows .body-content header .search {
+  position: relative;
+}
+
+.windows .content-windows .body-content header .search input {
+  width: 300px;
+  padding: 10px 5px 10px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.windows .content-windows .body-content header .search i {
+  position: absolute;
+  left: 10px;
+  top: 9px;
+  color: rgba(0, 0, 0, 0.582);
+}
+
+.windows .content-windows .body-content header .icons a {
+  margin-right: 15px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.61);
+  text-decoration: none;
+}
+
+.windows .content-windows .body-content .app {
+  margin-top: 20px;
+}
+
+.windows .content-windows .body-content .app .app-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.windows .content-windows .body-content .app .app-top a.eset-img {
+  width: 55%;
+}
+
+.windows .content-windows .body-content .app .app-top a.eset-img img {
+  width: 100%;
+}
+
+.windows .content-windows .body-content .app .app-top a.pubg-img {
+  margin-left: 15px;
+  width: 40%;
+}
+
+.windows .content-windows .body-content .app .app-top a.pubg-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.windows .content-windows .body-content .app .app-bottom {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.windows .content-windows .body-content .app .app-bottom .left-app-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .left-app-content
+  .item-1 {
+  cursor: pointer;
+  margin-right: 15px;
+  width: 120px;
+  height: 120px;
+  padding: 10px 8px;
+  border-radius: 10px;
+  background-color: #020024;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ef9a56),
+    color-stop(35%, #e56f7e),
+    to(#e56f7e)
+  );
+  background: linear-gradient(90deg, #ef9a56 0%, #e56f7e 35%, #e56f7e 100%);
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .left-app-content
+  .item-1
+  .icon {
+  margin-bottom: 5px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .left-app-content
+  .item-1
+  .icon
+  svg {
+  fill: rgba(255, 255, 255, 0.808);
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .left-app-content
+  .item-1
+  .text
+  h3 {
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.767);
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .left-app-content
+  .item-1
+  .text
+  p {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.671);
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .left-app-content
+  .item-2 {
+  cursor: pointer;
+  width: 120px;
+  height: 120px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  background-color: #693bdd;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .left-app-content
+  .item-2
+  .icon {
+  margin-bottom: 5px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .left-app-content
+  .item-2
+  .icon
+  i {
+  color: rgba(255, 255, 255, 0.747);
+  font-size: 20px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .left-app-content
+  .item-2
+  .text
+  h3 {
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.815);
+  font-size: 20px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .left-app-content
+  .item-2
+  .text
+  p {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 20px;
+}
+
+.windows .content-windows .body-content .app .app-bottom .right-app-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15px;
+  background-color: #008de9;
+  height: 120px;
+  padding: 20px 0px;
+  border-radius: 15px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .right-app-content
+  .item-menu {
+  width: 100px;
+  border-right: 1px solid #fff;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .right-app-content
+  .item-menu
+  .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .right-app-content
+  .item-menu
+  .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app
+  .app-bottom
+  .right-app-content
+  .item-menu
+  .text
+  h2 {
+  font-size: 10px;
+  color: #fff;
+}
+
+.windows .content-windows .body-content .app-specials {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.windows .content-windows .body-content .app-specials .app-specials-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.windows .content-windows .body-content .app-specials .app-specials-top .title {
+  margin-right: 15px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app-specials
+  .app-specials-top
+  .title
+  h1 {
+  font-size: 35px;
+}
+
+.windows .content-windows .body-content .app-specials .app-specials-top a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.829);
+  font-size: 20px;
+}
+
+.windows .content-windows .body-content .app-specials .soft-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.windows .content-windows .body-content .app-specials .soft-body .soft-item {
+  width: calc((100% - 90px) / 7);
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app-specials
+  .soft-body
+  .soft-item
+  .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 7px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app-specials
+  .soft-body
+  .soft-item
+  .text
+  h3 {
+  font-size: 13px;
+  text-align: center;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app-specials
+  .soft-body
+  .soft-item
+  .text
+  .icons {
+  margin-bottom: 10px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app-specials
+  .soft-body
+  .soft-item
+  .text
+  .icons
+  i {
+  font-size: 8px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .app-specials
+  .soft-body
+  .soft-item
+  .text
+  p {
+  font-size: 12px;
+}
+
+.windows .content-windows .body-content .articles {
+  margin-top: 40px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .articles
+  .content-articles
+  .articles-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .articles
+  .content-articles
+  .articles-top
+  .title {
+  margin-right: 15px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .articles
+  .content-articles
+  .articles-top
+  .title
+  h1 {
+  font-size: 35px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .articles
+  .content-articles
+  .articles-top
+  a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.829);
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .articles
+  .content-articles
+  .articles-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .articles
+  .content-articles
+  .articles-block
+  .articles-item {
+  width: calc((100% - 30px) / 3);
+  position: relative;
+  cursor: pointer;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .articles
+  .content-articles
+  .articles-block
+  .articles-item
+  img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .articles
+  .content-articles
+  .articles-block
+  .articles-item
+  p {
+  font-size: 10px;
+  color: #000;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.windows
+  .content-windows
+  .body-content
+  .articles
+  .content-articles
+  .articles-block
+  .articles-item
+  h2 {
+  font-size: 17px;
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 2;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.modal .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  background-color: blue;
+}
+
+.modal .content .sign-in {
+  position: absolute;
+  border: 1px solid rgba(0, 232, 248, 0.068);
+  width: 400px;
+  padding: 20px;
+  background-color: #00aeff;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px #00e8f8;
+  box-shadow: 3px 3px #00e8f8;
+  margin-top: 50px;
+}
+
+.modal .content .sign-in .title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.modal .content .sign-in .title h1 {
+  color: gold;
+}
+
+.modal .content .sign-in .username {
+  margin-bottom: 30px;
+}
+
+.modal .content .sign-in .username h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.modal .content .sign-in .username input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.modal .content .sign-in .username input:focus {
+  outline: none;
+}
+
+.modal .content .sign-in .pasword {
+  margin-bottom: 30px;
+}
+
+.modal .content .sign-in .pasword h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.modal .content .sign-in .pasword input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.modal .content .sign-in .pasword input:focus {
+  outline: none;
+}
+
+.modal .content .sign-in .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.modal .content .sign-in .button button.cancel {
+  padding: 10px 50px;
+  background-color: #fff;
+  color: #f73e06;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal .content .sign-in .button button.login {
+  padding: 10px 57px;
+  background-color: #f73e06;
+  color: #fcfcfc;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal .content .sign-in .sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.modal .content .sign-in .sign-up span {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.modal .content .sign-in .sign-up a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.modal .content .sign-in a {
+  font-size: 20px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

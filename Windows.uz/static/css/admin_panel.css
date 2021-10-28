@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../img/photo-1540270776932-e72e7c2d11cd.jfif);
+  background-size: 100%;
+  height: 100vh;
+}
+
+.content .sign-in {
+  border: 1px solid #00e8f8;
+  width: 400px;
+  padding: 20px;
+  background-color: #00aeff;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px #00e8f8;
+  box-shadow: 3px 3px #00e8f8;
+  margin-top: 50px;
+}
+
+.content .sign-in .title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content .sign-in .title h1 {
+  color: gold;
+}
+
+.content .sign-in .username {
+  margin-bottom: 30px;
+}
+
+.content .sign-in .username h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.content .sign-in .username input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.content .sign-in .username input:focus {
+  outline: none;
+}
+
+.content .sign-in .pasword {
+  margin-bottom: 30px;
+}
+
+.content .sign-in .pasword h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.content .sign-in .pasword input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.content .sign-in .pasword input:focus {
+  outline: none;
+}
+
+.content .sign-in .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.content .sign-in .button button.cancel {
+  padding: 10px 50px;
+  background-color: #fff;
+  color: #f73e06;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content .sign-in .button button.login {
+  padding: 10px 57px;
+  background-color: #f73e06;
+  color: #fcfcfc;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content .sign-in .sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.content .sign-in .sign-up span {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.content .sign-in .sign-up a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.content .sign-in a {
+  font-size: 20px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

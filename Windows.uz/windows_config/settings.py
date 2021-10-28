@@ -133,6 +133,10 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 #STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static/'),
+)
+
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
@@ -150,7 +154,6 @@ EMAIL_HOST_PASSWORD = '5ef6c34bd69b2c94aa8b5ef22e2b768e-1f1bd6a9-7dfe4dc1'
 EMAIL_USE_TLS = True
 
 # CKEDITOR_CONFIGS
-
 CKEDITOR_CONFIGS = {
     'default':{
         'toolbar': None,
